@@ -20,3 +20,33 @@ console.log("NAMA SHIF1:");
 for (let i = 0; i < nama.length; i++) {
     console.log(nama[i]);
 }
+
+
+
+
+// =======================================================
+// TUGAS LANJUTAN
+// =======================================================
+
+// 1. Array dimulai dari index berapa?
+// Jawab: Array dimulai dari index 0
+console.log("Array dimulai dari index 0");
+console.log("");
+
+// 2. Tampilkan index sesuai nama masing-masing
+console.log("8. DIANDRA KAYLA ARAMITA:");
+for (let i = 0; i < nama.length; i++) {
+  console.log("Index " + i + " : " + nama[i]);
+}
+
+console.log("");
+
+// 3. Tampilkan data, jika data index ke-3 maka lewati / jangan ditampilkan
+console.log("3. BUNGA SASI KIRANA:");
+for (let i = 0; i < nama.length; i++) {
+  if (i === 3) {
+    continue; // ini buat lewatin index 3
+  }
+  console.log("Index " + i + " : " + nama[i]);
+}
+
